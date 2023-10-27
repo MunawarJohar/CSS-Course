@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 8 transform transition and Animation in Css</title>
+    <style>
+        .container {
+            background-color: red;
+            height: 60vh;
+        }
+        
+        .box {
+            /*   transform: translate(34px, 20px) rotate(45deg);
+            transform-origin: 0;
+              border: 2px solid rgb(38, 23, 20);
+            */
+        }
+        
+        .box img {
+            width: 600px;
+        }
+        
+        img:hover {
+            width: 250px;
+        }
+        
+        img {
+            width: 600px;
+            /*  transition-property: width;
+            transition-duration: 1s;
+            transition-timing-function: ease-in;
+            transition-delay: 2s;
+            */
+            transition: width 3s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"><img id="myimage" src="Analyzer.webp" alt="loading"></div>
+        <button id="btn">Toggle</button>
+    </div>
+
+</body>
+<script>
+    btn.addEventListener("click", () => {
+        myimage.style.width = "100px";
+    })
+</script>
+
+</html>

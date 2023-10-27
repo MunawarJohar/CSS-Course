@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: rgb(101, 95, 161);
+    --black-color: black;
+}
+
+header {
+    background-color: var(--bg-color);
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    padding: 0 25px;
+}
+
+nav ul {
+    /*margin: 10px;*/
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 22px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul li a:hover {
+    color: rgb(47, 170, 114);
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 450px;
+    height: 27px;
+    margin: 0 16px 0 56px;
+    padding: 10px 10px;
+}
+
+.search button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+}
+
+.container {
+    min-height: calc(100vh - 60px - 10vh);
+}
+
+.slider {
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 1100px;
+    height: 400px;
+}
+
+.card {
+    max-width: 90vw;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-family: 'Lato', sans-serif;
+    margin: 2px 5px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 242, 242);
+    border-radius: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.card-item {
+    display: inline-flex;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 15p;
+    background-color: azure;
+    border-radius: 15px;
+}
+
+.card-item img {
+    width: 160px;
+    height: 160px;
+}
+
+footer {
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
