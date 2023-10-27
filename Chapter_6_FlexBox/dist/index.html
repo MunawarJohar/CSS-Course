@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Seo is a Search Engine optimization">
+    <meta name="keyword" content=" Seo ,search,SEO">
+    <meta name="author" content="Munawar Hussain">
+    <title> Size position and list</title>
+    <style>
+        li {
+            display: inline;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            height: 70px;
+            background-color: rgb(78, 81, 109);
+            color: wheat;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+        
+        p {
+            text-align: center;
+            border: 2px solid tomato;
+        }
+        
+        .container {
+            background-color: aqua;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+        }
+        
+        .box {
+            height: 200px;
+            width: 200px;
+            background-color: blueviolet;
+            /*     position: static; by default the div position is static*/
+            position: relative;
+            top: 30px;
+            left: 50px;
+        }
+        
+        .box2 {
+            height: 200px;
+            width: 200px;
+            background-color: rgb(43, 226, 67);
+            margin-top: 20px;
+            position: absolute;
+            top: 20px;
+            left: 3px;
+        }
+        
+        body {
+            height: 4000px;
+        }
+        
+        .chart {
+            width: 60x;
+            height: 60px;
+            border-radius: 50%;
+            color: white;
+            background-color: rgb(223, 167, 167);
+            position: fixed;
+            bottom: 50px;
+            right: 10px;
+            padding: 5px 5px;
+            margin: auto;
+            text-align: center;
+            justify-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Blog</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, dicta soluta blanditiis necessitatibus alias natus odio? A suscipit, tenetur minus expedita nesciunt, dolore nostrum unde maxime ex corporis nemo provident quaerat possimus.
+        </p>
+        <div class="box">I am a box </div>
+        <div class="box2">I am a box2 </div>
+    </div>
+    <div class="chart">
+        <p>
+            Chart with us.</p>
+    </div>
+</body>
+
+</html>

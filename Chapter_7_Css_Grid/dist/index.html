@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 7 Grid in Css</title>
+    <style>
+        .container {
+            display: grid;
+            background-color: blueviolet;
+            /*   grid-column-gap: 10px;
+            grid-row-gap: 5px;
+            */
+            grid-gap: 10px;
+            /*
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 321px 223px;
+            */
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 320px 222px;
+        }
+        
+        .item {
+            background-color: aqua;
+            border: 3px solid rgb(23, 147, 41);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+    </div>
+</body>
+
+</html>

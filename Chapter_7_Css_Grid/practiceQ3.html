@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chapter 7 practice set</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul {
+            display: inline-grid;
+            grid-template-columns: auto auto auto;
+        }
+        
+        ul li {
+            list-style: none;
+            margin: 0 23px;
+            padding: 22px 0;
+        }
+        
+        header {
+            color: white;
+            background-color: black;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        
+        .left {
+            height: 60vh;
+            background-color: aqua;
+            margin-right: 10px;
+        }
+        
+        .right {
+            height: 60vh;
+            margin-left: 10px;
+            background-color: rgb(33, 165, 21);
+        }
+        
+        @media screen and (max-width:800px) {
+            body {
+                background-color: rgb(205, 191, 191);
+            }
+            .left {
+                background-color: blueviolet;
+            }
+            .right {
+                background-color: darkmagenta;
+            }
+            header {
+                background-color: rgb(50, 50, 69);
+            }
+        }
+        
+        @media screen and (max-width:400px) {
+            body {
+                background-color: rgb(236, 180, 180);
+            }
+            .left {
+                background-color: rgb(186, 226, 43);
+            }
+            .right {
+                background-color: rgb(0, 139, 113);
+            }
+            header {
+                background-color: rgb(3, 3, 51);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>about</li>
+                <li>Contact us</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="left">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, aliquid.
+        </div>
+        <div class="right">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, atque.
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox in Css</title>
+    <style>
+      .container{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center; /* content can horizontally center*/
+        align-items:center;/* content can vertically center*/
+        height:100vh;
+        background-color:yellow;
+        align-items:flex-end;
+    /*    align-content:center;*/
+      }
+      .box1{
+        width:300px;
+        height:300px;
+        background-color:red;
+        order:4;
+        align-self:flex-end;
+      }
+      .box2{
+        width:300px;
+        height:300px;
+        background-color:blue;
+      }
+      .box3{
+        width:300px;
+        height:300px;
+        background-color:aqua;
+        /*flex-grow:3;*/
+      }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+  
+        <div class="box1">
+            Box1
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit esse odit adipisci sapiente et ut molestiae quam magni, nesciunt deleniti nostrum nam accusantium voluptatem unde impedit praesentium recusandae molestias eos id perferendis.
+        </div>
+        <div class="box2">
+            Box2
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eveniet aliquam sunt quidem molestias dolores id corrupti, aut rerum, a ea optio, reprehenderit illo ipsa? Distinctio cupiditate repellendus est doloribus, quae perferendis delectus
+            officia alias mollitia nemo sed illo magnam incidunt quidem enim nostrum, laboriosam praesentium voluptate velit rem eaque!
+        </div>
+        <div class="box3">
+            Box3
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eveniet aliquam sunt quidem molestias dolores id corrupti, aut rerum, a ea optio, reprehenderit illo ipsa? Distinctio cupiditate repellendus est doloribus, quae perferendis delectus
+            officia alias mollitia nemo sed illo magnam incidunt quidem enim nostrum, laboriosam praesentium voluptate velit rem eaque!
+        </div>
+        <div class="box2">
+            Box4
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eveniet aliquam sunt quidem molestias dolores id corrupti, aut rerum, a ea optio, reprehenderit illo ipsa? Distinctio cupiditate repellendus est doloribus, quae perferendis delectus
+            officia alias mollitia nemo sed illo magnam incidunt quidem enim nostrum, laboriosam praesentium voluptate velit rem eaque!
+        </div>
+    </div>
+</body>
+
+</html>

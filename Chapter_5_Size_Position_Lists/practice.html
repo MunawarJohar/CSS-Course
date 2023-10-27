@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chapter 5 practice set</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            display:inline;
+            padding:10px 10px;
+
+        }
+        ul li a{
+            list-style:none;
+        }
+        header{
+            background-color:black;
+            color:white; 
+            padding:10px 10px;
+            position:sticky;
+            top:0;
+        }
+        .container{
+            min-height:433px;
+            background-color:aqua;
+            position:relative;
+            z-index:3;
+        }
+        .container2{
+            min-height:433px;
+            background-color:aqua;
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Contact us</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="container">
+    These are more units for describing size either other than “px”. 
+These are rem .em vw, vh, percentages etc.
+What wrong with pixels? 
+Pixels (px) are relative to the viewing device. For a device with size 1920X1080, 1px is 1 unit out of 1080/1920.
+Relative lengths
+These units are relative to the other length property. Following are some of the most commonly used relative’s lengths.
+1. em ------------ > Unit relative to the parent font size.
+                          Em means “my parent element” font size.
+2. rem ------------ > Unit relatives to the root font size (<html> tag)
+3. vw ------------ > Unit relatives to 1% viewport width.
+4. vh -------------- > unit relative to 1% viewport height.
+5. % -------------- > unit relative to the parent element. 
+Min/max-height/width property 
+CSS has a min-height, max-height, and min-width and max-width property.
+If the content is smaller than the minimum height, minimum height will be applied.
+Similar is the case with other related properties.
+The position property 
+Used to manipulate the location of an element following are the possible values.
+
+</div>
+<div class="container2">
+    
+</div>
+</body>
+
+</html>
