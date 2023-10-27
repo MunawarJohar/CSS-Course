@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Collapse </title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .box1 {
+        background-color: aqua;
+        margin: 30px;
+        height: 20%;
+        width: 233px;
+        border: 2px solid green;
+    }
+    
+    .box2 {
+        background-color: green;
+        height: 20%;
+        width: 233px;
+        box-sizing: content-box;
+        /* do effect the content*/
+        box-sizing: border-box;
+    }
+</style>
+
+<body>
+
+    <div class="box1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod modi quo, ex possimus veniam earum! Esse sed distinctio tempora magni libero. In totam iusto excepturi quod ea aut dignissimos deleniti. voluptatum illo ipsa quasi vel unde autem incidunt,
+        ratione, corporis quidem par accusantium provident itaque nihil, placeat unde? Nihil ullam consequuntur fugit! Quam, odit aliquid illum numquam facere impedit laboriosam similique, eius culpa blanditiis reprehenderit alias, optio nostru
+    </div>
+    <div class="box2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, quam nisi itaque corporis dolorum dolore? Eum, obcaecati porro! Voluptatem necessitatibus perspiciatis, corrupti consequatur reprehenderit adipisci natus sed tempora voluptatibus suscipit delectus
+        m dicta. Modi totam beatae sequi, dolore eum explicabo suscipit ea iste veritatis provident dolorum animi esse reprehenderit nisi sed voluptates? Facilis minus magnam laborum quam praesentium accusantium reprehenderit necessitatibus ipsam alias
+        laudantium saepe, totam, voluptate vel neque. Eaque rerum cumque laudantium fugit vitae quidem. Iusto sed ipsam officia dignissimos ab eveniet maiores amet alias nulla. Sapiente, accusantium pariatur tempore deserunt delectus omnis ex ipsa atque,
+        repudiandae eos repellat culpa qui laudantium. Qui consectetur placeat esse quidem tenetur nulla corporis! Autem illum impedit vitae sequi enim a, error vel qui necessitatibus repellat quisquam alias odio laudantium cumque ipsam vero odit eum
+        porro, ad veniam temporibus voluptvitae, excepturi minima.
+
+    </div>
+</body>
+
+</html>
